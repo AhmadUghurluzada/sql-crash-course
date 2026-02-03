@@ -85,4 +85,28 @@ FROM 'C:\Program Files\PostgreSQL\16\data\Datasets\sql_course\company_dim.csv'
 WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 ```
 
+## 🔍 Key SQL Analyses
+
+### 1. Top-Paying Data Engineer Jobs
+Identifies the top 10 highest-paying Data Engineer roles.
+
+### 2. Skills Required for Top-Paying Jobs
+Finds skills associated with the highest-paying Data Engineer positions.
+
+
+### 3. Most In-Demand Skills
+Identifies the top 5 most frequently requested skills.
+
+### 4. Skills with Highest Average Salaries
+Finds the top 20 skills associated with the highest average salaries.
+
+### 5. Optimal Skills to Learn
+Combines demand and salary data to identify the most valuable skills.
+
+
+
+## 🛠️ Technologies Used
+- PostgreSQL  
+- SQL (CTEs, Joins, Aggregations, Indexes)  
+- CSV datasets  
 
