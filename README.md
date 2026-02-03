@@ -1,6 +1,6 @@
-# 📊 Data Engineer Job Market Analysis (SQL Project)
+# Data Engineer Job Market Analysis (SQL Project)
 
-## 📌 Overview
+## Overview
 
 This project analyzes the job market for **Data Engineer** roles using SQL.  
 The goal is to explore salary trends, skill demand, and the relationship between skills and compensation.
@@ -9,7 +9,7 @@ The analysis is based on a relational database built from real-world job posting
 
 ---
 
-## 🗂️ Database Schema
+## Database Schema
 
 The database is designed using fact and dimension tables.
 
@@ -68,7 +68,7 @@ Composite Primary Key: `(job_id, skill_id)`
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### 1️⃣ Create Database
 Run the SQL script in `create_database.sql`.
@@ -85,7 +85,7 @@ FROM 'C:\Program Files\PostgreSQL\16\data\Datasets\sql_course\company_dim.csv'
 WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 ```
 
-## 🔍 Key SQL Analyses
+## Queries
 
 ### 1. Top-Paying Data Engineer Jobs
 Identifies the top 10 highest-paying Data Engineer roles.
@@ -105,8 +105,15 @@ Combines demand and salary data to identify the most valuable skills.
 
 
 
-## 🛠️ Technologies Used
+## Technologies Used
 - PostgreSQL  
 - SQL (CTEs, Joins, Aggregations, Indexes)  
 - CSV datasets  
 
+
+## About This Project
+This project demonstrates:
+
+- Relational database design
+- Advanced SQL querying
+- Real-world data exploration
